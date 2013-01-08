@@ -1,13 +1,13 @@
-Augusta = Awesome = true and Loved = Cherished = true
+Karen_Olivia = Awesome = true and Loved = Cherished = true
 
 Infinity = (+1.0 / 0)..(-1.0 / 0)
 def Infinity.ends; false; end
-Forever = -> { puts "Augusta, we \033[31m<3\033[0m you!"; sleep 5 }
+Forever = -> { puts "Karen_Olivia, we \033[31m<3\033[0m you!"; sleep 5 }
 Incredible = :wunderbar!
 %w(We The).map { |const| self.class.const_set const, Module.new do; end }
 OurFamily = :the_number_one_most_important_thing # not breakfast
 
-def a_letter(*to); yield Augusta; end
+def a_letter(*to); yield Karen_Olivia; end
 
 class Numeric
   def method_missing(*); instance_eval { self }; end
